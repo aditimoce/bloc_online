@@ -1,15 +1,12 @@
-package user;
+package bloconline.user;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
 @Entity
 public class User {
 
     @Id
-    @GeneratedValue
-    private Integer userID;
+    private int ID;
 
     private String userName;
 
@@ -19,7 +16,13 @@ public class User {
 
     private String lastName;
 
-    private int aptNumber;
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
 
     public String getUserName() {
         return userName;
@@ -51,13 +54,5 @@ public class User {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public int getAptNumber() {
-        return aptNumber;
-    }
-
-    public void setAptNumber(int aptNumber) {
-        this.aptNumber = aptNumber;
     }
 }
