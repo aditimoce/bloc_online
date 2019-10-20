@@ -1,34 +1,23 @@
 package bloconline.repository;
 
 import bloconline.user.User;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Optional;
 
 @Component
-public class UserRepository {
+public interface UserRepository extends CrudRepository<User, Integer> {
 
-    List<User> userList = new ArrayList<>();
+default User updateUser(Integer userID, User user) {
+    Optional<User> userToUpdate = findById(userID);
 
-    public List<User> getUserList() {
-        return userList;
-    }
-
-    public User insertUser(User u) {
-        boolean insertionResult = userList.add(u);
-
-        if (insertionResult) {
-            return u;
-        } else {
-            return null;
+        if (userToUpdate.isPresent()) {
+            User userWithIdFound = userToUpdate.get();
+            userWithIdFound.setUserName(user.getUserName());
+            userWithIdFound.setEmail(user.getEmail());
+            return save(userWithIdFound);
         }
-    }
-
-    public User updateUser(int id, User user) {
         return null;
-    }
-
-    public void deleteById(int id) {
     }
 }

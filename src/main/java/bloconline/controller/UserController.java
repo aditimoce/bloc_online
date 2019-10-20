@@ -19,11 +19,11 @@ public class UserController {
         return userService.insertUser(user);
     }
 
-    public void deleteUserById(int ID) {
-        userService.deleteUserById(ID);
+    public void deleteUserById(Integer userID) {
+        userService.deleteUserById(userID);
     }
 
-    public User updateUser(int ID, User user) {
-        return userService.updateUser(ID, user);
+    public User updateUser(Integer userID, User user) {
+        return userService.updateUser(userID, user);
     }
 }

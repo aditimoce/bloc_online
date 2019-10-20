@@ -16,14 +16,14 @@ public class UserService {
     }
 
     public User insertUser(User user) {
-        return userRepository.insertUser(user);
+        return userRepository.save(user);
     }
 
-    public void deleteUserById(int ID) {
-        userRepository.deleteById(ID);
+    public void deleteUserById(Integer userID) {
+        userRepository.deleteById(userID);
     }
 
-    public User updateUser(int ID, User user) {
-        return userRepository.updateUser(ID, user);
+    public User updateUser(Integer userID, User user) {
+        return userRepository.updateUser(userID, user);
     }
 }

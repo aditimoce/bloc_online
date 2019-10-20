@@ -1,12 +1,17 @@
 package bloconline.user;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import java.util.Set;
+
 @Entity
 public class User {
 
     @Id
-    private int ID;
+    @GeneratedValue
+    private Integer userID;
 
     private String userName;
 
@@ -16,12 +21,23 @@ public class User {
 
     private String lastName;
 
-    public int getID() {
-        return ID;
+    @OneToMany(mappedBy = "user")
+    private Set<Apt> aptList;
+
+    public Integer getUserID() {
+        return userID;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setUserID(Integer userID) {
+        this.userID = userID;
+    }
+
+    public Set<Apt> getAptList() {
+        return aptList;
+    }
+
+    public void setAptList(Set<Apt> aptList) {
+        this.aptList = aptList;
     }
 
     public String getUserName() {

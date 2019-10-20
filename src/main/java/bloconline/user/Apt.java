@@ -1,24 +1,59 @@
 package bloconline.user;
 
+import javax.persistence.*;
+
+@Entity
 public class Apt {
 
+    public Apt(double coldWater, double hotWater, double elevator, double cleaning, double trash, double lighting, double totalCost) {
+        this.coldWater = coldWater;
+        this.hotWater = hotWater;
+        this.elevator = elevator;
+        this.cleaning = cleaning;
+        this.trash = trash;
+        this.lighting = lighting;
+        this.totalCost = totalCost;
+    }
+
+    @Id
+    @GeneratedValue
     private int number;
 
-    private Integer coldWater;
+    private double coldWater;
 
-    private Integer hotWater;
+    private double hotWater;
 
-    private Integer elevator;
+    private double elevator;
 
-    private Integer cleaning;
+    private double cleaning;
 
-    private Integer trash;
+    private double trash;
 
-    private Integer lighting;
+    private double lighting;
 
-    private Integer totalCost;
+    private double totalCost;
 
-    public Integer getColdWater() {
+    @ManyToOne
+    @JoinColumn
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public double getColdWater() {
         return coldWater;
     }
 
@@ -26,7 +61,7 @@ public class Apt {
         this.coldWater = coldWater;
     }
 
-    public Integer getHotWater() {
+    public double getHotWater() {
         return hotWater;
     }
 
@@ -34,7 +69,7 @@ public class Apt {
         this.hotWater = hotWater;
     }
 
-    public Integer getElevator() {
+    public double getElevator() {
         return elevator;
     }
 
@@ -42,7 +77,7 @@ public class Apt {
         this.elevator = elevator;
     }
 
-    public Integer getCleaning() {
+    public double getCleaning() {
         return cleaning;
     }
 
@@ -50,7 +85,7 @@ public class Apt {
         this.cleaning = cleaning;
     }
 
-    public Integer getTrash() {
+    public double getTrash() {
         return trash;
     }
 
@@ -58,7 +93,7 @@ public class Apt {
         this.trash = trash;
     }
 
-    public Integer getLighting() {
+    public double getLighting() {
         return lighting;
     }
 
@@ -66,7 +101,7 @@ public class Apt {
         this.lighting = lighting;
     }
 
-    public Integer getTotalCost() {
+    public double getTotalCost() {
         return totalCost;
     }
 
