@@ -2,37 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899c1125-6440-4b09-bce4-74a07102a068" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/adria.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/controller/AptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/SpringSecurityInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/restController/AptRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/service/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/service/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/validator/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bloconline/web/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/resources/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/validation.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlocOnline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BlocOnline.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/repository/AptRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/repository/AptRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/HibernateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/login/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/SpringSecurityInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/login/WebMvcConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/service/AptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/service/AptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/restController/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/restController/UserRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/user/Apt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/user/Apt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/userRestController/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/restController/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/web/WEB_INF/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/web/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/web/WEB_INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bloconline/web/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/web/resources/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bloconline/web/resources/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +46,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -74,18 +78,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/LoginTest" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/JSPDemo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\bloconline\web\resources\css" />
+      <recent name="C:\SDA\Final Project\BlocOnline\src\main\resources" />
+      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\resources" />
+      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\bloconline\web\WEB_INF\view" />
+      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\bloconline\web\WEB_INF\WEB_INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\bloconline\login" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="bloconline.login" />
       <recent name="repository" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\bloconline\web\WEB_INF\WEB_INF" />
-      <recent name="C:\SDA\Final Project\BlocOnline\src\main\java\bloconline\web\WEB_INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,7 +143,8 @@
       <updated>1570866054999</updated>
       <workItem from="1570866057587" duration="22236000" />
       <workItem from="1571467336905" duration="3661000" />
-      <workItem from="1571472973497" duration="12075000" />
+      <workItem from="1571472973497" duration="20376000" />
+      <workItem from="1571561374439" duration="3924000" />
     </task>
     <task id="LOCAL-00001" summary="added application properties &amp; dependencies">
       <created>1570867608964</created>
@@ -148,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570874333013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added login form">
+      <created>1571552788953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571552788953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added login form">
+      <created>1571552903925</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571552903925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +197,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added application properties &amp; dependencies" />
     <MESSAGE value="added user/userController/userRepo/userService/userRestController" />
-    <option name="LAST_COMMIT_MESSAGE" value="added user/userController/userRepo/userService/userRestController" />
+    <MESSAGE value="added login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="added login form" />
   </component>
 </project>

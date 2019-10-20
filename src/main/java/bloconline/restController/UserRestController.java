@@ -18,7 +18,7 @@ public class UserRestController {
 
     @PutMapping("/updateUser")
     public User updateUser(@RequestParam Integer userID, @RequestBody User user) {
-        return userController.updateUser(userID, user);
+        return userController.updateUser(user);
     }
 
     @DeleteMapping("/deleteUser/{userID}")
